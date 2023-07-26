@@ -45,7 +45,8 @@ body {
     background-color: rgb(243, 175, 179);
     border-radius: 5px;
     margin: 10px 10px 10px 10px;
-    height: 5vh;
+    width: 95%;
+    height: 7vh;
     display: flex;
     align-items: center;
     color: rgb(105, 64, 50);
@@ -112,14 +113,14 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-select {
+#states-select {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 .buttons::placeholder {
@@ -133,17 +134,19 @@ select {
 .left {    
     display: flex;
     flex-direction: column;
-    width: 65%;
+    width: 53%;
     padding: 10px;
+    border-style: solid;
+    height: 72%;
 }
 
 .selectpay {
-  height: 65%;  
+  height: 75%;  
 }
 
 .typepay {
     background-color: #817b7b;
-    height: 35px;
+    height: 45px;
     width: 45%;
     display: flex;
     align-items: center;
@@ -156,8 +159,10 @@ select {
 .right {    
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 47%;
     padding: 10px;
+    border-style: solid;
+    height: 72%;
 }
 .state {
     display: flex;
@@ -192,8 +197,8 @@ form div .fa-brands {
 }
 
 textarea {
-    width: 88%;
-    height: 30%;
+    width: 90%;
+    height: 35%;
     border-color: rgb(232, 235, 238);
     padding: 12px;
     border: 1px solid #ccc;
@@ -204,14 +209,6 @@ textarea {
     height: 90%;
     width: 90%;
 }
-
-img {
-    width: 15px;
-    position: absolute;
-    top: 56%;
-    right: 40px;
-}
-
 
 .btn_cancel, .btn_send {
     border: none;
@@ -248,16 +245,28 @@ img {
     color: #ccc;
 }
 
-.left .buttons {
+.left input {
 
-    margin-top: 1.8%;
+    margin-top: 1.7%;
 }
 
 .right input {
-    margin-top: 1.8%;
+    margin-top: 1.7%;
 }
 
 .Amount input {      
     width: 88%;    
 }
 
+.right .message {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    height: 45%;
+}
+
+.right .btn_right {
+    background-color: aqua;
+    width: 91%;
+    height: 35%;
+}
