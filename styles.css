@@ -253,6 +253,18 @@ textarea {
     height: 45%;
 }
 
+
+.btn_postal {
+    border-color: rgb(232, 235, 238);
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 18%;
+}
+
 .right .btn_right {
     background-color: aqua;
     width: 91%;
