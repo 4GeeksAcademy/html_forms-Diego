@@ -1,6 +1,4 @@
-{
-    box-sizing: border-box; 
-}
+
 body {
     display: flex;
     justify-content: center;
@@ -135,8 +133,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 53%;
-    padding: 10px;
-    border-style: solid;
+    padding: 10px;    
     height: 100%;
 }
 
@@ -156,14 +153,7 @@ body {
     margin-top: 10px;
 }
 
-.right {    
-    display: flex;
-    flex-direction: column;
-    width: 47%;
-    padding: 10px;
-    border-style: solid;
-    height: 72%;
-}
+
 .state {
     display: flex;
     justify-content: space-between;
@@ -260,8 +250,7 @@ textarea {
 
 .message {
     display: flex;
-    flex-direction: column;
-    border-style: solid;
+    flex-direction: column;   
     height: 45%;
 }
 
@@ -275,8 +264,15 @@ textarea {
     display: flex;
 }
 .code_state div {
-    background-color: bisque;
     display: flex;
     flex-direction: column;
     flex: 1;
+}
+
+.code_state div input {
+    width: 79%;
+}
+
+.lastname {
+    width: 90%;
 }
