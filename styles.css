@@ -11,16 +11,16 @@ body {
     font-family: 'Noto Sans JP', sans-serif;
 }
 .wrap {
-    width: 1200px;
-    /* border-color: rgba(128, 128, 128, 0.267);*/
-    border-color: #080808;
-    height: 700px;
+    width: 1100px;
+    border-color: rgba(128, 128, 128, 0.267);    
+    height: 580px;
     border-style: solid;
     border-width: 1px;
     border-radius: 5px;
     position: relative;
     display: flex;
-    flex-direction: column;       
+    flex-direction: column;   
+      
 }
 
 .wrap .title {
@@ -29,12 +29,14 @@ body {
     padding-top: 5px;
     margin: 0;    
     justify-self: start;
+    border-style: solid;
 }
 .title  h1 {
     background-color: transparent;      
     margin: 0;  
     padding-left: 5px; 
     font-size: 1.5rem;
+    height: 50px;
 }
 
 .warning {
@@ -132,7 +134,6 @@ select {
 .left {    
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     width: 65%;
     padding: 10px;
 }
@@ -158,8 +159,6 @@ select {
     flex-direction: column;
     width: 40%;
     padding: 10px;
-    flex-direction: column;
-    justify-content: space-between;
 }
 .state {
     display: flex;
@@ -176,20 +175,14 @@ select {
     
 }
 
-.wrap_form {
-    display: flex;
-    flex-direction: column;
-    align-items: space-between;
-}
-
 form {
     margin: 0;
     padding: 0;
     width: 100%; 
     display: flex;   
-    flex-direction: column;
-    margin-top: 20px;  
-        
+    flex-direction: column;   
+    height: 467px;
+    position: relative;
 }
 form div .fa-brands {
     background-color: #080808;
@@ -199,7 +192,7 @@ form div .fa-brands {
 
 textarea {
     width: 100%;
-    height: 25%;
+    height: 40%;
     
 }
 .states {
@@ -233,6 +226,7 @@ img {
     padding: 5px 5px 5px 5px;
     background-color: rgba(220, 220, 220, 0.493);
     justify-self: end;
+    
 }
 
 .btn_cancel {
@@ -251,31 +245,15 @@ img {
 }
 
 .left .buttons {
-    height: 2%;
+
+    margin-top: 1.8%;
 }
 
 .right input {
-    height: 2%;
+    margin-top: 1.8%;
 }
 
 .Amount div input {      
-    width: 80%;
-    position: relative;
+    width: 80%;    
 }
 
-.Amount div span {      
-    padding-right: 5px ; 
-    position: absolute;
-    right: 35px;   
-}
-
-.btn_postal {
-    border-color: rgb(232, 235, 238);
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    resize: vertical;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    height: 18%;
-}
