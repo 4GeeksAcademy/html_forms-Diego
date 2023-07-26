@@ -1,4 +1,4 @@
-*{
+{
     box-sizing: border-box; 
 }
 body {
@@ -13,13 +13,14 @@ body {
 .wrap {
     width: 1100px;
     border-color: rgba(128, 128, 128, 0.267);    
-    height: 580px;
+    height: 600px;
     border-style: solid;
     border-width: 1px;
     border-radius: 5px;
     position: relative;
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;  
+     
       
 }
 
@@ -35,8 +36,9 @@ body {
     background-color: transparent;      
     margin: 0;  
     padding-left: 5px; 
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     height: 50px;
+    text-shadow: #ccc;    
 }
 
 .warning {
@@ -101,7 +103,7 @@ body {
 }
 
 .buttons {
-    height: 5vh;
+    height: 3vh;
     border-color: rgb(232, 235, 238);
     padding: 12px;
     border: 1px solid #ccc;
@@ -111,16 +113,13 @@ body {
     margin-bottom: 10px;
 }
 select {
-  appearance: none;
-  border-color: rgb(232, 235, 238);
-  border: 1px solid #ccc;
-  width: 10vw;
-  font-family: inherit;
-  font-size: 12px;
-  border-radius: 4px;
-  height: 45%;
-  margin-top: 10px;
-  padding-left: 10px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box
 }
 
 .buttons::placeholder {
@@ -177,12 +176,14 @@ select {
 
 form {
     margin: 0;
-    padding: 0;
+    
     width: 100%; 
     display: flex;   
     flex-direction: column;   
-    height: 467px;
+    height: 489px;
     position: relative;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 form div .fa-brands {
     background-color: #080808;
@@ -191,14 +192,17 @@ form div .fa-brands {
 }
 
 textarea {
-    width: 100%;
-    height: 40%;
-    
+    width: 88%;
+    height: 30%;
+    border-color: rgb(232, 235, 238);
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 .states {
     position: relative;
     height: 90%;
-    width: 50%;
+    width: 90%;
 }
 
 img {
@@ -253,7 +257,7 @@ img {
     margin-top: 1.8%;
 }
 
-.Amount div input {      
-    width: 80%;    
+.Amount input {      
+    width: 88%;    
 }
 
