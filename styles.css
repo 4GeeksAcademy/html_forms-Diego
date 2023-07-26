@@ -1,0 +1,277 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.wrap {
+    width: 1100px;
+    border-color: rgba(128, 128, 128, 0.267);    
+    height: 600px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    flex-direction: column;  
+     
+      
+}
+
+.wrap .title {
+    background-color: rgba(220, 220, 220, 0.493);
+    padding-left: 5px;
+    padding-top: 5px;
+    margin: 0;    
+    justify-self: start;
+    
+}
+.title  h1 {
+    background-color: transparent;      
+    margin: 0;  
+    padding-left: 5px; 
+    font-size: 1.7rem;
+    height: 50px;
+    text-shadow: #ccc;    
+}
+
+.warning {
+    background-color: rgb(243, 175, 179);
+    border-radius: 5px;
+    margin: 10px 10px 10px 10px;
+    width: 95%;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    color: rgb(105, 64, 50);
+    justify-content: space-between;
+    padding-right: 10px;
+    
+}
+
+.close {
+    padding-left: 10px;
+    font-size: 15px;    
+    right: 10px;
+}
+
+.information_card {
+    display: flex;
+    justify-content:space-between;
+    width: 98%;
+    margin-left: 10px;
+    
+}
+
+.card, .CVC, .Amount {
+    display: flex;
+    flex-direction: column;
+            
+}
+
+.card {
+    width: 40%;    
+}
+
+.Amount {
+    width: 35%;
+    display: flex;
+    position: relative;
+}
+
+.Amount i {
+    position: absolute;
+    top: 55%;
+    left: -4%;
+}
+
+.Amount div{
+    display: flex;
+    justify-content: end;
+}
+
+
+
+.CVC {
+    width: 20%;
+   
+}
+
+.buttons {
+    height: 2vh;
+    border-color: rgb(232, 235, 238);
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#states-select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.buttons::placeholder {
+    color: #ccc;
+}
+
+.user_information {
+    display: flex;           
+}
+
+.left {    
+    display: flex;
+    flex-direction: column;
+    width: 53%;
+    padding: 10px;    
+    height: 100%;
+}
+
+.selectpay {
+  height: 75%;  
+}
+
+.typepay {
+    background-color: #817b7b;
+    height: 45px;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+.state {
+    display: flex;
+    justify-content: space-between;
+}
+.right .state {
+    display: flex;
+    justify-content: space-between;
+}
+.right .state div {
+       
+    display: flex;
+    flex-direction: column;
+    
+}
+
+form {
+    margin: 0;    
+    width: 100%; 
+    display: flex;   
+    flex-direction: column;   
+    height: 493px;
+    position: relative;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+form div .fa-brands {
+    background-color: #080808;
+    font-size: 15px;
+    
+}
+
+textarea {
+    width: 90%;
+    height: 35%;
+    border-color: rgb(232, 235, 238);
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.states {
+    position: relative;
+    height: 90%;
+    width: 90%;
+}
+
+.btn_cancel, .btn_send {
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 2px 2px;   
+    border-radius: 5px; 
+}
+
+.btn_footer {
+    display: flex;
+    justify-content: end;
+    padding: 5px 5px 5px 5px;
+    background-color: rgba(220, 220, 220, 0.493);
+    justify-self: end;
+    
+}
+
+.btn_cancel {
+    background-color: gray;
+    width: 8%;
+}
+
+.btn_send {
+    background-color: rgba(0, 119, 255, 0.836);
+    width: 7%;
+}
+
+.comment_note {
+    font-size: 12px;
+    color: #ccc;
+}
+
+.left input {
+
+    margin-top: 1.7%;
+}
+
+.right input {
+    margin-top: 1.7%;
+}
+
+.Amount input {      
+    width: 88%;    
+}
+
+.message {
+    display: flex;
+    flex-direction: column;   
+    height: 45%;
+}
+
+.right .btn_right {
+    background-color: aqua;
+    width: 91%;
+    height: 35%;
+}
+
+.code_state {   
+    display: flex;
+}
+.code_state div {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.code_state div input {
+    width: 79%;
+}
+
+.lastname {
+    width: 90%;
+}
