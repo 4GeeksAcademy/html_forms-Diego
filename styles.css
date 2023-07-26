@@ -104,7 +104,7 @@ body {
 }
 
 .buttons {
-    height: 3vh;
+    height: 2vh;
     border-color: rgb(232, 235, 238);
     padding: 12px;
     border: 1px solid #ccc;
@@ -137,7 +137,7 @@ body {
     width: 53%;
     padding: 10px;
     border-style: solid;
-    height: 72%;
+    height: 100%;
 }
 
 .selectpay {
@@ -258,7 +258,7 @@ textarea {
     width: 88%;    
 }
 
-.right .message {
+.message {
     display: flex;
     flex-direction: column;
     border-style: solid;
@@ -269,4 +269,14 @@ textarea {
     background-color: aqua;
     width: 91%;
     height: 35%;
+}
+
+.code_state {   
+    display: flex;
+}
+.code_state div {
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
