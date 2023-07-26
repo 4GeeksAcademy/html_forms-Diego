@@ -86,10 +86,6 @@ body {
     left: -4%;
 }
 
-.Amount label {
-    margin-left: 11%;
-}
-
 .Amount div{
     display: flex;
     justify-content: end;
