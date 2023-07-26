@@ -77,13 +77,13 @@ body {
 .Amount {
     width: 35%;
     display: flex;
-    
+    position: relative;
 }
 
-.Amount div i {
-    margin-left: 5px;
-    align-self: center;
-    margin-bottom: 13px;
+.Amount i {
+    position: absolute;
+    top: 55%;
+    left: -4%;
 }
 
 .Amount label {
