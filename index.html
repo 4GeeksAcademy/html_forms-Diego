@@ -18,7 +18,9 @@
             Payment form example 
             </h1>           
         </div>
+        
         <form action="post">
+            
             <div class="warning">
                 <h4 class="close">some fields are missing</h4>
                 <i class='bx bx-x-circle close'></i>
@@ -35,11 +37,8 @@
                 </div>
                 <div class="Amount">
                     <label for="Amount">Amount</label>
-                    <div>
                     <i class="fa-solid fa-dollar-sign"></i>
-                    <input class="buttons" type="text" name="Amount" id="Amount" placeholder="XXXXXXXXXXXXX">
-                    
-                    </div>
+                    <input class="buttons" type="text" name="Amount" id="Amount" placeholder="XXXXXXXXXXXXX">                    
                 </div>
             </div>
             <!-- End Box with the information card-->
@@ -71,48 +70,33 @@
                         </label>
                     </div>
                 </div>
-                <div class="right">
-                    <label for="lastname" class="lastname">Last Name</label>
-                    <input class="buttons" type="text" name="lastname" id="lastname">
-                    <div class="state">
-                        <div class="states">
-                            <label for="state">State</label>
-                            <select name="pets" id="pet-select">
-                                <option value="">Pick a State </option>
-                                <option value="dog">Florida</option>
-                                <option value="cat">Californi</option>
-                                <option value="hamster">Nevada</option>
-                                <option value="parrot">Georgia</option>
-                                <option value="spider">Michigan</option>
-                                <option value="goldfish">Texas</option>
-                            </select>
-                            <div>
-                                <img src="https://cdn-icons-png.flaticon.com/512/25/25756.png" alt="">
-                            </div>
-                            
-                            
-                            <!--
-                            <input class="buttons btn_state" type="text" name="state" id="state">
-                            -->
+                <div class="left">
+                    <label for="lastname" class="name">Last Name</label>
+                    <input class="buttons lastname" type="text" name="firstname" id="firstname">
+                    <div class="code_state">
+                        <div>
+                            <label for="city" class="city">State</label>
+                            <input class="buttons" type="text" name="city" id="city">
                         </div>
                         <div>
-                            <label for="postalcode">Postal Code</label>
-                            <input class="buttons" type="text" name="postalcode" id="postalcode">
+                            <label for="city" class="city">Postal Code</label>
+                            <input class="buttons" type="text" name="city" id="city">
                         </div>
-                    </div>
+                    </div>                    
                     <div class="message">
                         <label for="message">Message</label>
-                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                        <textarea name="message" id="message" cols="10" rows="10"></textarea>
                         <label class="comment_note" for="comment">Add any notes here.</label>
-                    </div>
+                    </div>                   
                 </div>
-            </div>
-            <!-- End Box with the user information card-->            
+            </div> 
+            <!-- End Box with the user information card-->    
+        
         </form>
         <div class="btn_footer">
             <button type="submit" class="btn_cancel">Cancel</button>
             <button type="submit" class="btn_send">Send</button>
-        </div>
+        </div>  
     </div>
 </body>
 </html>
